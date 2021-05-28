@@ -1,0 +1,14 @@
+# DataSource配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/vueblog?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: xht314159
+
+#shiro-reids配置
+shiro-redis:
+  enable: true
+  redis-manager:
+    host: 127.0.0.1:6379
+

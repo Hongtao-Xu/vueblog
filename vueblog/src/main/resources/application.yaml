@@ -1,0 +1,12 @@
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**Mapper.xml
+#端口配置：
+server:
+  port: 8081
+xuhongtao:
+  jwt:
+    # 加密密钥
+    secret: f4e2e52034348f86b67cde581c0f9eb5
+    # token有效时长，7天，单位秒
+    expire: 604800
+    header: Authorization
